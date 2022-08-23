@@ -6,7 +6,9 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git 'https://github.com/Lucas-knut/app-expressjs'
+                git branch: 'master',
+                credentialsId: 'bf6ac58f-85c2-4f82-aa8e-4b4e2ae81901',
+                url: 'ssh://git@github.com:Lucas-knut/app-expressjs.git'
             }
         }
         stage('Build') {
