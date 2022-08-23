@@ -1,0 +1,22 @@
+{
+  "name": "app-expressjs",
+  "version": "1.0.0",
+  "description": "test desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-knut/app-expressjs.git"
+  },
+  "author": "Knut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas-knut/app-expressjs/issues"
+  },
+  "homepage": "https://github.com/Lucas-knut/app-expressjs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
