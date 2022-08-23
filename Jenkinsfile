@@ -4,11 +4,11 @@ pipeline {
   tools {nodejs "node"}
 
     stages {
-        stage('Git') {
-            steps {
-                git 'https://github.com/Lucas-knut/app-expressjs'
-            }
-        }
+        // stage('Git') {
+        //     steps {
+        //         git 'https://github.com/Lucas-knut/app-expressjs'
+        //     }
+        // }
         stage('Build') {
             steps {
                 // sh 'npm install'
